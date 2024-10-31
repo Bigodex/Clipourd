@@ -1,0 +1,51 @@
+.social {
+    width: 100%; /* Defina a largura para centralizar */
+    max-width: 160px; /* Defina um valor máximo, se necessário */
+    height: 300px;
+    background-color: #fff;
+    margin: 20px 0px 0px 0px;
+    border-radius: 30px;
+    border:3px solid #000; /* Centraliza horizontalmente */
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.banner-social {
+    background-color: #1A1A1A;
+    width: 300px;
+    height: 60px;
+    border-radius: 25px 25px 0px 0px;
+    position: relative;
+    border-bottom: 3px solid #000;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+
+.banner-social h2 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-social p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .social-media a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black; /* ajuste conforme necessário */
+}
+
+.social-media a img {
+    margin-right: 8px; /* ajuste o espaçamento entre o ícone e o texto */
+}

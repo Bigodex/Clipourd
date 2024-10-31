@@ -1,0 +1,90 @@
+.profile {
+    width: 80%; /* Defina a largura para centralizar */
+    max-width: 1000px; /* Defina um valor máximo, se necessário */
+    height: 400px;
+    background-color: #fff;
+    margin: 20px auto 20px auto;
+    border-radius: 30px;
+    border:3px solid #000; /* Centraliza horizontalmente */
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: left;
+}
+
+.banner-profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    
+}
+
+.banner-profile {
+    background-color: #1A1A1A;
+    width: 260px;
+    height: 395px;
+    border-radius: 25px 0px 0px 25px;
+    position: relative;
+    border-right: 3px solid #000;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+
+.banner-profile h2 {
+    margin-top: 10px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.banner-profile p {
+    margin-top: 6px;
+    left: 50%;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+.paragraph p {
+    margin-top: 26px;
+    margin-bottom: -10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.documents {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria novas colunas automaticamente */
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.documents h2 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.documents p {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding-left: 28px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+

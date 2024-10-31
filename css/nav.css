@@ -130,10 +130,11 @@
     transition: .5s;
     overflow: hidden;
     z-index: 1;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
-    opacity: 80%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 16px;
+    opacity: 100%;
     margin-right: 100px;
+    border:2px solid #1a1a1a;
   }
 
   .drop-hover .drop a{
@@ -160,10 +161,11 @@
     transition: .5s;
     overflow: hidden;
     z-index: 11;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
-    opacity: 80%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 16px;
+    opacity: 100%;
     margin-left: 20px;
+    border:2px solid #1a1a1a;
   }
 
   .drop-hover .drop1 a{
@@ -185,10 +187,11 @@
     transition: .5s;
     overflow: hidden;
     z-index: 11;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 16px;
     margin-right: 60px;
-    opacity: 80%;
+    opacity: 100%;
+    border:2px solid #1a1a1a;
   }
 
   .drop-hover .drop2 a{
@@ -210,9 +213,10 @@
     transition: .5s;
     overflow: hidden;
     z-index: 11;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
-    opacity: 80%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 16px;
+    opacity: 100%;
+    border:2px solid #1a1a1a;
   }
 
   .drop-hover .drop3 a{
@@ -222,54 +226,6 @@
 
   .drop-hover:hover .drop3{
     height: 350px;
-  }
-
-  /* Dropdown Calçados */
-  .drop-hover .drop4 {
-    position: absolute;
-    background-color: #FFF;
-    width: 100%;
-    width: 120px;
-    height: 0;
-    transition: .5s;
-    overflow: hidden;
-    z-index: 11;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
-    opacity: 80%;
-  }
-
-  .drop-hover .drop4 a{
-    padding: 10px;
-    color: #252525;
-  }
-
-  .drop-hover:hover .drop4{
-    height: 390px;
-  }
-
-  /* Dropdown Esportivo */
-  .drop-hover .drop5 {
-    position: absolute;
-    background-color: #FFF;
-    width: 100%;
-    width: 200px;
-    height: 0;
-    transition: .5s;
-    overflow: hidden;
-    z-index: 11;
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 22px;
-    opacity: 80%;
-  }
-
-  .drop-hover .drop5 a{
-    padding: 10px;
-    color: #252525;
-  }
-
-  .drop-hover:hover .drop5{
-    height: 450px;
   }
 
   .icon1 {
