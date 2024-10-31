@@ -9,13 +9,16 @@
 }
 
 .banner-curriculo {
-    width: 100%; /* Defina a largura para centralizar */
-    max-width: 800px; /* Defina um valor máximo, se necessário */
+    width: 100%;
+    /* Defina a largura para centralizar */
+    max-width: 800px;
+    /* Defina um valor máximo, se necessário */
     height: 1200px;
     background-color: #fff;
     margin: 20px 0px 0px 0px;
     border-radius: 30px;
-    border:3px solid #000; /* Centraliza horizontalmente */
+    border: 3px solid #000;
+    /* Centraliza horizontalmente */
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,4 +46,36 @@
     align-items: center;
     margin: 5px 0;
     font-size: 16px;
-  }
+}
+
+.curriculo-media h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.curriculo-media h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.curriculo-media p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+    margin: 0;
+    padding: 15px;
+    text-align: justify;
+    line-height: 1.5;
+
+
+}

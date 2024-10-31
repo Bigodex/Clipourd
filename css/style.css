@@ -59,3 +59,10 @@ h5 {
     display: flex;
     justify-content: left;
 }
+
+.titles1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
